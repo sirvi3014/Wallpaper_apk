@@ -14,8 +14,8 @@ Widget brandName()
       (
       style: TextStyle(fontSize: 16),
       children: <TextSpan>[
-        TextSpan(text: 'Back', style: TextStyle(color: Colors.white ,fontSize: 25,fontWeight: FontWeight.w500)),
-        TextSpan(text: 'loop',style: TextStyle(color: Colors.blue,fontSize:21,fontWeight: FontWeight.w900)),
+        TextSpan(text: 'Wallpaper', style: TextStyle(color: Colors.white ,fontSize: 25,fontWeight: FontWeight.w500)),
+        TextSpan(text: 'Duniya',style: TextStyle(color: Colors.blue,fontSize:21,fontWeight: FontWeight.w900)),
       ],
     ),
   );
@@ -40,7 +40,7 @@ Widget wallpapersList({List<WallpaperModel> wallpapers,context})
             onTap: (){
               Navigator.push(context, MaterialPageRoute(
                 builder: (context)=>ImageView(
-                  imgUrl: wallpaper.src.portrait,
+                  //imgUrl: wallpaper.src.portrait,
                 )
               ));
             },
