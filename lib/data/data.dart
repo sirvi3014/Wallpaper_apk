@@ -1,6 +1,6 @@
 import 'package:flutterappxwalls/model/catagories_model.dart';
 
-String apiKey="563492ad6f917000010000011533820df72d416ea6bdf5e63931c0a5";
+String apiKey="";// add your key
 List<CategoriesModel> getCategories()
 {
   List<CategoriesModel> categories=new List();
