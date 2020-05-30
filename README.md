@@ -1,4 +1,4 @@
-# flutterappxwalls
+# flutter Wallpaper app
 
 A new Flutter application.
 
